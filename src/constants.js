@@ -163,6 +163,20 @@ export const SkillsInfo = [
       desc: "Specialized in creating comprehensive digital solutions with focus on user experience and visual design for various industries.Developed responsive web applications for various industries Created brand identities and marketing materials Produced promotional videos and motion graphicsCollaborated with international teams on complex projects",
       skills: ["JavaScript", "Python", "MongoDB", "React", "Photoshop", "Adobe After Effects"],
     },
+     {
+      id: 3,
+      img: auiLogo,
+      role: "Al Akhawayn University Social Media Manager",
+      company: "Al Akhawayn University",
+      date: "2024",
+      desc: "●	Amplified student engagement by 80 % through targeted content creation and community interaction on social media"+
+"●	Produced compelling graphics and videos using Adobe Creative Suite and video editing tools to boost visibility"+
+"●	Streamlined department event coordination by mapping out timelines, assigning tasks, and ensuring cross-team communication"+
+"●	Facilitated town hall and monthly leadership meetings by managing logistics, drafting agendas, and coordinating stakeholders"+
+"●	Adjusted project plans and priorities in response to shifting deadlines and institutional needs"+
+"●	Supported administrative operations by handling communications, scheduling, and document preparation",
+      skills: ["JavaScript", "Python", "MongoDB", "React", "Photoshop", "Adobe After Effects"],
+    },
   ];
   
   export const education = [
