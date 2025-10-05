@@ -170,12 +170,12 @@ export const SkillsInfo = [
       company: "Al Akhawayn University",
       date: "2024",
       desc: "●	Amplified student engagement by 80 % through targeted content creation and community interaction on social media"+
-"●	Produced compelling graphics and videos using Adobe Creative Suite and video editing tools to boost visibility"+
-"●	Streamlined department event coordination by mapping out timelines, assigning tasks, and ensuring cross-team communication"+
-"●	Facilitated town hall and monthly leadership meetings by managing logistics, drafting agendas, and coordinating stakeholders"+
-"●	Adjusted project plans and priorities in response to shifting deadlines and institutional needs"+
-"●	Supported administrative operations by handling communications, scheduling, and document preparation",
-      skills: ["JavaScript", "Python", "MongoDB", "React", "Photoshop", "Adobe After Effects"],
+'●	Produced compelling graphics and videos using Adobe Creative Suite and video editing tools to boost visibility'+
+'●	Streamlined department event coordination by mapping out timelines, assigning tasks, and ensuring cross-team communication'+
+'●	Facilitated town hall and monthly leadership meetings by managing logistics, drafting agendas, and coordinating stakeholders'+
+'●	Adjusted project plans and priorities in response to shifting deadlines and institutional needs'+
+'●	Supported administrative operations by handling communications, scheduling, and document preparation',
+      skills: ["Photoshop", "Adobe After Effects"],
     },
   ];
   
