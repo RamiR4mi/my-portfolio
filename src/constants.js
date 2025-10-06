@@ -57,6 +57,17 @@ import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import orealLogo from './assets/work_logo/loreal-logo.png';
+
+// Designs Section
+import castleLogo from './assets/designs/castleLogo.png';
+import d1 from './assets/designs/auistudentservices/SLIDE.png';
+import d2 from './assets/designs/auistudentservices/client.png';
+import cvid1 from './assets/designs/cvid1.mp4';
+import spic1 from './assets/designs/spic1.png';
+import spic2 from './assets/designs/spic2.png';
+import spic3 from './assets/designs/spic3.png';
+
 
 
 export const SkillsInfo = [
@@ -195,6 +206,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "L'Oréal Brandstorm 2025 Hackathon",
+      description:
+        "At L'Oréal Brandstorm 2025, me and my team developed an innovative friendly shaving machine design for elderly people, blind individuals, and youth. The device is small, portable, and easy to use, combining face shaving, nose trimming, and skincare features into one inclusive solution. Its focus on safety, accessibility, and comfort ensures independence and confidence for all users. As team leader, I was responsible for managing and coordinating the project, ensuring smooth collaboration across all members. Beyond the technical concept, I contributed to the branding and design strategy, shaping the product's identity and vision. I also led the filmmaking and storytelling process, creating impactful content to present our project in a clear, engaging, and professional way. This experience not only strengthened my technical and creative skills but also honed my ability to lead, organize, and communicate ideas effectively in a fast-paced, innovation-driven environment.",
+      image: orealLogo,
+      tags: ["Leadership", "Project Coordination", "Team Management", "Problem-Solving", "Collaboration", "Prototyping", "Branding & Identity", "Filmmaking & Storytelling",
+         "User-Centered Design", "UI/UX Design", "Photoshop", "Figma", "After Effects"],
+      webapp: "",
+    },
+    {
+      id: 1,
       title: "GitHub Profile Detective",
       description:
         "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
@@ -255,5 +276,48 @@ export const SkillsInfo = [
       image: removebgLogo,
       tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
       webapp: "https://removeyourbg.netlify.app/",
+    },
+  ];  
+
+  export const designs = [
+    {
+      id: 0,
+      title: "Aui Student Services",
+      description:"Founded the first student-run services platform at AUI to connect student business owners with clients. The platform helps AUIers showcase their services and products while making it easy for students to find and purchase what they need efficiently and affordably.",
+       media: [
+      { type: "image", src: d1 },
+      { type: "image", src: d2 }, // poster optional
+    ],
+      webapp: "",
+    },
+    {
+      id: 1,
+      title: "The Castle",
+      description:
+        "Cinematic Video for The Castle Restaurant",
+       media: [
+      { type: "video", src: cvid1, poster: castleLogo },
+    ],
+    },
+     {
+      id: 2,
+      title: "Santacruz",
+      description:
+        "Tuna Brand",
+       media: [
+      { type: "image", src: spic1},
+      { type: "image", src: spic2},
+      { type: "image", src: spic3}, // poster optional
+    ],
+    },
+      {
+      id: 3,
+      title: "Al Ajial",
+      description:
+        "",
+       media: [
+      { type: "image", src: spic1},
+
+    ],
     },
   ];  
