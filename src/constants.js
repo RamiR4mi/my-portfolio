@@ -67,6 +67,10 @@ import cvid1 from './assets/designs/cvid1.mp4';
 import spic1 from './assets/designs/spic1.png';
 import spic2 from './assets/designs/spic2.png';
 import spic3 from './assets/designs/spic3.png';
+import stpic1 from './assets/designs/stpic1.png';
+import dsapolo from './assets/designs/dsapolo.png';
+import dsapol2 from './assets/designs/dsapolo2.png';
+import reddead from './assets/designs/reddead1.png';
 
 
 
@@ -282,8 +286,26 @@ export const SkillsInfo = [
   export const designs = [
     {
       id: 0,
+      title: "Al Akhawayn University",
+       media: [
+      { type: "image", src: auiLogo},
+      { type: "image", src: dsapolo},
+      { type: "image", src: dsapol2},
+    ],
+      webapp:"",
+    },
+    {
+      id: 1,
+      title: "Storm Group",
+      description:"",
+       media: [
+      { type: "image", src: stpic1},
+    ],
+      webapp: "",
+    },
+    {
+      id: 2,
       title: "Aui Student Services",
-      description:"Founded the first student-run services platform at AUI to connect student business owners with clients. The platform helps AUIers showcase their services and products while making it easy for students to find and purchase what they need efficiently and affordably.",
        media: [
       { type: "image", src: d1 },
       { type: "image", src: d2 }, // poster optional
@@ -291,33 +313,24 @@ export const SkillsInfo = [
       webapp: "",
     },
     {
-      id: 1,
+      id: 3,
       title: "The Castle",
       description:
-        "Cinematic Video for The Castle Restaurant",
+        "",
        media: [
       { type: "video", src: cvid1, poster: castleLogo },
     ],
     },
      {
-      id: 2,
+      id: 4,
       title: "Santacruz",
       description:
-        "Tuna Brand",
+        "",
        media: [
       { type: "image", src: spic1},
       { type: "image", src: spic2},
       { type: "image", src: spic3}, // poster optional
     ],
     },
-      {
-      id: 3,
-      title: "Al Ajial",
-      description:
-        "",
-       media: [
-      { type: "image", src: spic1},
 
-    ],
-    },
   ];  
