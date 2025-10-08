@@ -63,15 +63,31 @@ import orealLogo from './assets/work_logo/loreal-logo.png';
 import castleLogo from './assets/designs/castleLogo.png';
 import d1 from './assets/designs/auistudentservices/SLIDE.png';
 import d2 from './assets/designs/auistudentservices/client.png';
+import d3 from './assets/designs/auistudentservices/service.png';
+import d4 from './assets/designs/auistudentservices/TRUST US.png';
+
 import cvid1 from './assets/designs/cvid1.mp4';
 import spic1 from './assets/designs/spic1.png';
 import spic2 from './assets/designs/spic2.png';
 import spic3 from './assets/designs/spic3.png';
 import stpic1 from './assets/designs/stpic1.png';
-import dsapolo from './assets/designs/dsapolo.png';
-import dsapol2 from './assets/designs/dsapolo2.png';
-import reddead from './assets/designs/reddead1.png';
-
+import auipic1 from './assets/designs/aui/auipic1.png';
+import auipic2 from './assets/designs/aui/auipic2.png';
+import auipic3 from './assets/designs/aui/auipic3.png';
+import auipic4 from './assets/designs/aui/auipic4.png';
+import auipic5 from './assets/designs/aui/auipic5.png';
+import reddead from './assets/designs/esports/reddead1.png';
+import yaz1 from './assets/designs/yaz/yaz1.png';
+import yaz2 from './assets/designs/yaz/yaz2.png';
+import yaz3 from './assets/designs/yaz/yaz3.png';
+import yaz4 from './assets/designs/yaz/yaz4.png';
+import yaz5 from './assets/designs/yaz/yaz5.png';
+import yaz6 from './assets/designs/yaz/yaz6.png';
+import yaz7 from './assets/designs/yaz/yaz7.png';
+import yaz8 from './assets/designs/yaz/yaz8.png';
+import yaz9 from './assets/designs/yaz/yaz9.png';
+import yaz10 from './assets/designs/yaz/yaz10.png';
+import yaz11 from './assets/designs/yaz/yaz11.png';
 
 
 export const SkillsInfo = [
@@ -289,17 +305,31 @@ export const SkillsInfo = [
       title: "Al Akhawayn University",
        media: [
       { type: "image", src: auiLogo},
-      { type: "image", src: dsapolo},
-      { type: "image", src: dsapol2},
+      { type: "image", src: auipic1},
+      { type: "image", src: auipic2},
+      { type: "image", src: auipic3},
+      { type: "image", src: auipic4},
+      { type: "image", src: auipic5},
     ],
       webapp:"",
     },
     {
       id: 1,
-      title: "Storm Group",
-      description:"",
+      title: "YAZ Agricultural Solutions",
        media: [
-      { type: "image", src: stpic1},
+      { type: "image", src: yaz6 },
+      { type: "image", src: yaz1 }, // poster optional
+      { type: "image", src: yaz2 },
+      { type: "image", src: yaz3 },
+      { type: "image", src: yaz4 },
+      { type: "image", src: yaz5 },
+      { type: "image", src: yaz6 },
+      { type: "image", src: yaz7 },
+      { type: "image", src: yaz8 },
+      { type: "image", src: yaz9 },
+      { type: "image", src: yaz10 },
+      { type: "image", src: yaz11 },
+
     ],
       webapp: "",
     },
@@ -309,11 +339,23 @@ export const SkillsInfo = [
        media: [
       { type: "image", src: d1 },
       { type: "image", src: d2 }, // poster optional
+      { type: "image", src: d3 },
+      { type: "image", src: d4 },
     ],
       webapp: "",
     },
     {
       id: 3,
+      title: "Storm Group",
+      description:"",
+       media: [
+      { type: "image", src: stpic1},
+    ],
+      webapp: "",
+    },
+
+    {
+      id: 4,
       title: "The Castle",
       description:
         "",
@@ -322,7 +364,7 @@ export const SkillsInfo = [
     ],
     },
      {
-      id: 4,
+      id: 5,
       title: "Santacruz",
       description:
         "",
