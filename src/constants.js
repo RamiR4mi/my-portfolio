@@ -88,7 +88,8 @@ import yaz8 from './assets/designs/yaz/yaz8.png';
 import yaz9 from './assets/designs/yaz/yaz9.png';
 import yaz10 from './assets/designs/yaz/yaz10.png';
 import yaz11 from './assets/designs/yaz/yaz11.png';
-
+import yaz12 from './assets/designs/yaz/yaz12.png';
+import soliya from './assets/soliya.png';
 import alhiane1 from './assets/designs/alhiane/alhiane1.png';
 
 
@@ -282,7 +283,7 @@ export const SkillsInfo = [
       webapp: "https://webversedigital.com/",
     },
     {
-      id: 7,
+      id: 6,
       title: "Image Search App",
       description:
         "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
@@ -291,7 +292,7 @@ export const SkillsInfo = [
       webapp: "https://imagsearch.netlify.app/",
     },
     {
-      id: 8,
+      id: 7,
       title: "Image Background Remover",
       description:
         "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
@@ -331,7 +332,7 @@ export const SkillsInfo = [
       { type: "image", src: yaz9 },
       { type: "image", src: yaz10 },
       { type: "image", src: yaz11 },
-
+      { type: "image", src: yaz12 },
     ],
       webapp: "",
     },
@@ -392,12 +393,12 @@ export const SkillsInfo = [
       id: 0,
       title: "Soliya Alumni",
        media: [
-      { type: "image", src: auiLogo},
+      { type: "image", src: soliya},
     ],
       webapp:"",
     },
      {
-      id: 0,
+      id: 1,
       title: "Python Bootcamp",
        media: [
       { type: "image", src: auiLogo},
@@ -405,7 +406,7 @@ export const SkillsInfo = [
       webapp:"",
     },
      {
-      id: 0,
+      id: 2,
       title: "CTF Beginners CyberSecurity Hackathon",
        media: [
       { type: "image", src: auiLogo},
