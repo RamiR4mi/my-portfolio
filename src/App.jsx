@@ -9,6 +9,7 @@ import Contact from "./components/Contact/Contact";
 import Designs from "./components/designs/Designs";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from './components/BlurBlob';
+import Certifications from "./components/Certifications/Certifications";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
         <Work />
         <Designs/>
         <Education />
+        <Certifications/>
         <Contact />
         <Footer />
       </div>

@@ -89,6 +89,8 @@ import yaz9 from './assets/designs/yaz/yaz9.png';
 import yaz10 from './assets/designs/yaz/yaz10.png';
 import yaz11 from './assets/designs/yaz/yaz11.png';
 
+import alhiane1 from './assets/designs/alhiane/alhiane1.png';
+
 
 export const SkillsInfo = [
   {
@@ -353,9 +355,17 @@ export const SkillsInfo = [
     ],
       webapp: "",
     },
-
     {
       id: 4,
+      title: "Alhiane Services",
+      description:
+        "",
+       media: [
+      { type: "image", src: alhiane1},
+    ],
+    },
+    {
+      id: 5,
       title: "The Castle",
       description:
         "",
@@ -364,7 +374,7 @@ export const SkillsInfo = [
     ],
     },
      {
-      id: 5,
+      id: 6,
       title: "Santacruz",
       description:
         "",
@@ -374,5 +384,34 @@ export const SkillsInfo = [
       { type: "image", src: spic3}, // poster optional
     ],
     },
+
+  ];
+  
+  export const Certifications = [
+    {
+      id: 0,
+      title: "Soliya Alumni",
+       media: [
+      { type: "image", src: auiLogo},
+    ],
+      webapp:"",
+    },
+     {
+      id: 0,
+      title: "Python Bootcamp",
+       media: [
+      { type: "image", src: auiLogo},
+    ],
+      webapp:"",
+    },
+     {
+      id: 0,
+      title: "CTF Beginners CyberSecurity Hackathon",
+       media: [
+      { type: "image", src: auiLogo},
+    ],
+      webapp:"",
+    },
+    
 
   ];  
