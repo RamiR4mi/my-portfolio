@@ -91,6 +91,7 @@ import yaz11 from './assets/designs/yaz/yaz11.png';
 import yaz12 from './assets/designs/yaz/yaz12.png';
 import soliya from './assets/soliya.png';
 import alhiane1 from './assets/designs/alhiane/alhiane1.png';
+import hultprizelogo from './assets/hult_prize/logo.png';
 
 
 export const SkillsInfo = [
@@ -151,6 +152,29 @@ export const SkillsInfo = [
   export const experiences = [
     {
       id: 0,
+      img: hultprizelogo,
+      role: "Expert Coordinator",
+      company: "Hult Prize",
+      date: "September 2025 - Present",
+      desc: `As the Expert Coordinator of Hult Prize at AUI, I am responsible for identifying, selecting, and engaging industry professionals who can deliver high-value insights to our participants. My role involves coordinating expert-led workshops, connecting teams with mentors, and ensuring that every session provides practical, real-world perspectives that elevate the learning experience. I work closely with the organizing team to curate speakers whose expertise aligns with our themes, while also managing communication, scheduling, and on-site coordination. Ultimately, I help create an environment where students can learn directly from experienced practitioners and transform their ideas into meaningful, impactful solutions.`,
+      skills: [
+        "Expert Coordination",
+
+"Workshop Planning",
+
+"Event Management",
+
+"Scheduling & Logistics",
+
+"Stakeholder Coordination",
+
+"Cross-team Collaboration",
+
+"Resource Management",
+      ],
+    },
+    {
+      id: 1,
       img: mctLogo,
       role: "Founder",
       company: "Moroccan Code Together",
@@ -169,7 +193,7 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 1,
+      id: 2,
       img: spotLogo,
       role: "CO-Founder / Software Engineer",
       company: "SportSpot",
@@ -189,7 +213,7 @@ export const SkillsInfo = [
       ],
     },
     {
-      id: 2,
+      id: 3,
       img: cortexLogo,
       role: "Software developer & Marketing Lead",
       company: "Cortex Agency",
@@ -198,17 +222,17 @@ export const SkillsInfo = [
       skills: ["JavaScript", "Python", "MongoDB", "React", "Photoshop", "Adobe After Effects"],
     },
      {
-      id: 3,
+      id: 4,
       img: auiLogo,
       role: "Al Akhawayn University Social Media Manager",
       company: "Al Akhawayn University",
       date: "2024",
       desc: "●	Amplified student engagement by 80 % through targeted content creation and community interaction on social media"+
-'●	Produced compelling graphics and videos using Adobe Creative Suite and video editing tools to boost visibility'+
-'●	Streamlined department event coordination by mapping out timelines, assigning tasks, and ensuring cross-team communication'+
-'●	Facilitated town hall and monthly leadership meetings by managing logistics, drafting agendas, and coordinating stakeholders'+
-'●	Adjusted project plans and priorities in response to shifting deadlines and institutional needs'+
-'●	Supported administrative operations by handling communications, scheduling, and document preparation',
+            '●	Produced compelling graphics and videos using Adobe Creative Suite and video editing tools to boost visibility'+
+            '●	Streamlined department event coordination by mapping out timelines, assigning tasks, and ensuring cross-team communication'+
+            '●	Facilitated town hall and monthly leadership meetings by managing logistics, drafting agendas, and coordinating stakeholders'+
+            '●	Adjusted project plans and priorities in response to shifting deadlines and institutional needs'+
+            '●	Supported administrative operations by handling communications, scheduling, and document preparation',
       skills: ["Photoshop", "Adobe After Effects"],
     },
   ];
