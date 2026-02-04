@@ -262,7 +262,7 @@ export const SkillsInfo = [
       title: "I/O Connect Berlin 2024 Podcast",
       description:
         "At L'Oréal Brandstorm 2025, me and my team developed an innovative friendly shaving machine design for elderly people, blind individuals, and youth. The device is small, portable, and easy to use, combining face shaving, nose trimming, and skincare features into one inclusive solution. Its focus on safety, accessibility, and comfort ensures independence and confidence for all users. As team leader, I was responsible for managing and coordinating the project, ensuring smooth collaboration across all members. Beyond the technical concept, I contributed to the branding and design strategy, shaping the product's identity and vision. I also led the filmmaking and storytelling process, creating impactful content to present our project in a clear, engaging, and professional way. This experience not only strengthened my technical and creative skills but also honed my ability to lead, organize, and communicate ideas effectively in a fast-paced, innovation-driven environment.",
-      image: orealLogo,
+      image: googleLogo,
       tags: ["Leadership", "Project Coordination", "Team Management", "Problem-Solving", "Collaboration", "Prototyping", "Branding & Identity", "Filmmaking & Storytelling",
          "User-Centered Design", "UI/UX Design", "Photoshop", "Figma", "After Effects"],
       webapp: "",
