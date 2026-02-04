@@ -261,11 +261,12 @@ export const SkillsInfo = [
       id: 0,
       title: "I/O Connect Berlin 2024 Podcast",
       description:
-        "At L'Oréal Brandstorm 2025, me and my team developed an innovative friendly shaving machine design for elderly people, blind individuals, and youth. The device is small, portable, and easy to use, combining face shaving, nose trimming, and skincare features into one inclusive solution. Its focus on safety, accessibility, and comfort ensures independence and confidence for all users. As team leader, I was responsible for managing and coordinating the project, ensuring smooth collaboration across all members. Beyond the technical concept, I contributed to the branding and design strategy, shaping the product's identity and vision. I also led the filmmaking and storytelling process, creating impactful content to present our project in a clear, engaging, and professional way. This experience not only strengthened my technical and creative skills but also honed my ability to lead, organize, and communicate ideas effectively in a fast-paced, innovation-driven environment.",
+        " Edited a podcast episode recorded at the I/O Connect Berlin 2024 studio, featuring a Google Developer Advocate Abdel SGHIOUAR. My work included clean editing, pacing optimization, audio balancing, color correction and visual consistency, ensuring a polished and engaging final result. The edit was focused on maintaining a professional, broadcast-ready look and feel, aligned with Google’s visual identity and content quality standards, while preserving the natural flow and clarity of the discussion.",
       image: googleLogo,
-      tags: ["Leadership", "Project Coordination", "Team Management", "Problem-Solving", "Collaboration", "Prototyping", "Branding & Identity", "Filmmaking & Storytelling",
-         "User-Centered Design", "UI/UX Design", "Photoshop", "Figma", "After Effects"],
-      webapp: "",
+    tags: ["Podcast Editing", "Video Editing", "Audio Editing", "Color Correction", "Color Grading", "Content Production",
+       "Post-Production", "Storytelling", "Broadcast Quality", "Studio Production", "Tech Events",
+       "Google", "I/O Connect Berlin 2024", "Developer Advocacy", "After Effects", "Premiere Pro"],
+      webapp: "https://youtu.be/okd8teUi5Q8?si=RqjCuPukMZNM4nKY",
     },
     {
       id: 1,
