@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube, FaDiscord } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaYoutube, FaDiscord, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   // Smooth scroll function
@@ -38,16 +38,15 @@ const Footer = () => {
         {/* Social Media Icons - Responsive */}
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/rami-mazaoui-b6846a281/" },
-            { icon: <FaDiscord />, link: "https://discord.gg/hbyqqgSSYU" },
-            { icon: <FaYoutube />, link: "https://www.youtube.com/codingmasteryt" },
-            
+            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/rami-mazaoui-b6846a281/", external: true },
+            { icon: <FaDiscord />, link: "https://discord.gg/hbyqqgSSYU", external: true },
+            { icon: <FaEnvelope />, link: "mailto:rami.business3@gmail.com", external: false },
           ].map((item, index) => (
             <a
               key={index}
               href={item.link}
-              target="_blank"
-              rel="noopener noreferrer"
+              target={item.external ? "_blank" : undefined}
+              rel={item.external ? "noopener noreferrer" : undefined}
               className="text-xl hover:text-purple-500 transition-transform transform hover:scale-110"
             >
               {item.icon}

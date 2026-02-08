@@ -59,6 +59,7 @@ import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 import orealLogo from './assets/work_logo/loreal-logo.png';
 import googleLogo from './assets/google/google.png';
+import hultLogo from './assets/hult_prize/logo.png';
 
 // Designs Section
 import castleLogo from './assets/designs/castleLogo.png';
@@ -93,6 +94,13 @@ import yaz12 from './assets/designs/yaz/yaz12.png';
 import soliya from './assets/soliya.png';
 import alhiane1 from './assets/designs/alhiane/alhiane1.png';
 import hultprizelogo from './assets/hult_prize/logo.png';
+import hult1 from './assets/hult_prize/hult1.png';
+import hult2 from './assets/hult_prize/hult2.png';
+import hult3 from './assets/hult_prize/hult3.png';
+import hult4 from './assets/hult_prize/hult4.png';
+import hult5 from './assets/hult_prize/hult5.png';
+import hult6 from './assets/hult_prize/hult6.jpeg';
+import hult7 from './assets/hult_prize/hult7.jpeg';
 
 
 export const SkillsInfo = [
@@ -270,6 +278,24 @@ export const SkillsInfo = [
     },
     {
       id: 1,
+      title: "Hult Prize",
+      description:
+        "At Hult Prize, I work as Expert Coordinator, responsible for identifying, selecting, and engaging industry professionals to deliver high-value insights to participants. I coordinate expert-led workshops, connect teams with mentors, and ensure that every session provides practical, real-world perspectives that elevate the learning experience. I curate speakers whose expertise aligns with our themes, while managing communication, scheduling, and on-site coordination. Ultimately, I help create an environment where students can learn directly from experienced practitioners and transform their ideas into meaningful, impactful solutions. Also as A Graphic Designer, I contribute to the branding and design strategy, shaping the product's identity and vision. I also lead the filmmaking team, creating impactful content to present our project in a clear, engaging, and professional way.",
+      image: hultLogo,
+      tags: ["Leadership", "Project Coordination", "Team Management", "Problem-Solving", "Collaboration", "Prototyping", "Branding & Identity", "Filmmaking & Storytelling",
+         "User-Centered Design", "UI/UX Design", "Photoshop", "Figma", "After Effects"],
+      media: [
+      { type: "image", src: hult1},
+      { type: "image", src: hult2},
+      { type: "image", src: hult3},
+      { type: "image", src: hult4},
+      { type: "image", src: hult5},
+      { type: "image", src: hult6},
+    ],
+      webapp: "",
+    },
+    {
+      id: 2,
       title: "L'Oréal Brandstorm 2025 Hackathon",
       description:
         "At L'Oréal Brandstorm 2025, me and my team developed an innovative friendly shaving machine design for elderly people, blind individuals, and youth. The device is small, portable, and easy to use, combining face shaving, nose trimming, and skincare features into one inclusive solution. Its focus on safety, accessibility, and comfort ensures independence and confidence for all users. As team leader, I was responsible for managing and coordinating the project, ensuring smooth collaboration across all members. Beyond the technical concept, I contributed to the branding and design strategy, shaping the product's identity and vision. I also led the filmmaking and storytelling process, creating impactful content to present our project in a clear, engaging, and professional way. This experience not only strengthened my technical and creative skills but also honed my ability to lead, organize, and communicate ideas effectively in a fast-paced, innovation-driven environment.",

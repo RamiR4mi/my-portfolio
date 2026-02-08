@@ -3,13 +3,16 @@ import { projects } from "../../constants";
 
 const Work = () => {
   const [selectedProject, setSelectedProject] = useState(null);
+  const [currentMediaIndex, setCurrentMediaIndex] = useState(0);
 
   const handleOpenModal = (project) => {
     setSelectedProject(project);
+    setCurrentMediaIndex(0);
   };
 
   const handleCloseModal = () => {
     setSelectedProject(null);
+    setCurrentMediaIndex(0);
   };
 
   return (
@@ -78,13 +81,69 @@ const Work = () => {
             </div>
 
             <div className="flex flex-col">
-              <div className="w-full flex justify-center bg-gray-900 px-4">
-                <img
-                  src={selectedProject.image}
-                  alt={selectedProject.title}
-                  className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
-                />
-              </div>
+              {/* Media Gallery for projects with media */}
+              {selectedProject.media && selectedProject.media.length > 0 ? (
+                <div className="w-full flex flex-col items-center bg-gray-900 px-4">
+                  <div className="relative w-full flex justify-center items-center">
+                    {selectedProject.media[currentMediaIndex].type === "image" ? (
+                      <img
+                        src={selectedProject.media[currentMediaIndex].src}
+                        alt={selectedProject.title}
+                        className="lg:w-full w-[95%] max-h-96 object-contain rounded-xl shadow-2xl"
+                      />
+                    ) : selectedProject.media[currentMediaIndex].type === "video" ? (
+                      <video
+                        src={selectedProject.media[currentMediaIndex].src}
+                        controls
+                        className="lg:w-full w-[95%] max-h-96 object-contain rounded-xl shadow-2xl"
+                      />
+                    ) : null}
+                    {/* Prev/Next buttons */}
+                    {selectedProject.media.length > 1 && (
+                      <>
+                        <button
+                          onClick={() => setCurrentMediaIndex((currentMediaIndex - 1 + selectedProject.media.length) % selectedProject.media.length)}
+                          className="absolute left-2 top-1/2 -translate-y-1/2 bg-black bg-opacity-50 text-white rounded-full p-2 hover:bg-purple-600"
+                        >
+                          &#8592;
+                        </button>
+                        <button
+                          onClick={() => setCurrentMediaIndex((currentMediaIndex + 1) % selectedProject.media.length)}
+                          className="absolute right-2 top-1/2 -translate-y-1/2 bg-black bg-opacity-50 text-white rounded-full p-2 hover:bg-purple-600"
+                        >
+                          &#8594;
+                        </button>
+                      </>
+                    )}
+                  </div>
+                  {/* Thumbnails */}
+                  {selectedProject.media.length > 1 && (
+                    <div className="flex gap-2 mt-2 justify-center flex-wrap">
+                      {selectedProject.media.map((m, idx) => (
+                        <button
+                          key={idx}
+                          onClick={() => setCurrentMediaIndex(idx)}
+                          className={`border-2 ${idx === currentMediaIndex ? 'border-purple-500' : 'border-gray-600'} rounded-md p-1 bg-gray-800`}
+                        >
+                          {m.type === "image" ? (
+                            <img src={m.src} alt="thumb" className="w-12 h-12 object-cover rounded" />
+                          ) : m.type === "video" ? (
+                            <span className="text-white">🎬</span>
+                          ) : null}
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <div className="w-full flex justify-center bg-gray-900 px-4">
+                  <img
+                    src={selectedProject.image}
+                    alt={selectedProject.title}
+                    className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
+                  />
+                </div>
+              )}
               <div className="lg:p-8 p-6">
                 <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
                   {selectedProject.title}
@@ -103,14 +162,16 @@ const Work = () => {
                   ))}
                 </div>
                 <div className="flex gap-4">
-                  <a
-                    href={selectedProject.webapp}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-1/2 bg-purple-600 hover:text-[#d3f463] text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
-                  >
-                    See work!
-                  </a>
+                  {selectedProject.webapp && selectedProject.webapp !== "" && (
+                    <a
+                      href={selectedProject.webapp}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-1/2 bg-purple-600 hover:text-[#d3f463] text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    >
+                      See work!
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
