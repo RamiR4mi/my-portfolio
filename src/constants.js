@@ -248,6 +248,17 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
+        {
+          id: 5,
+          title: "Kilimanjaro Vlog",
+          description: "Abdel SGHIOUAR is not just a vlogger—he’s a Google Developer Advocate at Google, known for his adventurous spirit and passion for technology. Whether he’s climbing Mount Kilimanjaro or sharing insights on cloud computing, Abdel brings a unique blend of storytelling and technical expertise to his audience. His vlogs capture the thrill of exploration and the power of innovation, inspiring viewers to push boundaries both in travel and tech.",
+          image: "https://img.youtube.com/vi/P6Do7kKi3WM/hqdefault.jpg",
+          tags: ["Travel", "Adventure", "Vlog", "Kilimanjaro", "YouTube"],
+          media: [
+            { type: "youtube", src: "https://www.youtube.com/watch?v=P6Do7kKi3WM" }
+          ],
+          webapp: "https://www.youtube.com/watch?v=P6Do7kKi3WM",
+        },
     {
       id: 0,
       title: "I/O Connect Berlin 2024 Podcast",
@@ -303,20 +314,7 @@ export const SkillsInfo = [
   ],
   webapp: "", // Add link to DSA social media or event page if available
 },
-{
-  id: 4,
-  title: "DSA (Division of Student Affairs)",
-  description:
-    "As Social Media Manager for the Division of Student Affairs at AUI, I led the digital coverage and promotion of major campus events, including the 'Change My Mind' debate series. My responsibilities included designing engaging event graphics, live social media updates, and post-event highlights. I collaborated with student leaders and university officials to amplify student engagement and showcase the vibrant campus life. The featured event brought together the debate team and university president for a dynamic discussion, fostering critical thinking and community spirit.",
-  image: dsaMain,
-  tags: ["Social Media Management", "Event Promotion", "Graphic Design", "Student Engagement", "AUI", "Debate", "Leadership", "Content Creation"],
-  media: [
-    { type: "image", src: dsa1 },
-    { type: "image", src: dsa2 },
-    { type: "image", src: dsa3 }
-  ],
-  webapp: "",
-},
+
   ];  
 
   export const designs = [
