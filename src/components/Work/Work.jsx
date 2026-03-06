@@ -97,6 +97,16 @@ const Work = () => {
                         controls
                         className="lg:w-full w-[95%] max-h-96 object-contain rounded-xl shadow-2xl"
                       />
+                    ) : selectedProject.media[currentMediaIndex].type === "youtube" ? (
+                      <iframe
+                        src={selectedProject.media[currentMediaIndex].src}
+                        title={selectedProject.title}
+                        width="100%"
+                        height="400"
+                        className="rounded-xl shadow-2xl"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                      />
                     ) : null}
                     {/* Prev/Next buttons */}
                     {selectedProject.media.length > 1 && (
@@ -129,6 +139,8 @@ const Work = () => {
                             <img src={m.src} alt="thumb" className="w-12 h-12 object-cover rounded" />
                           ) : m.type === "video" ? (
                             <span className="text-white">🎬</span>
+                          ) : m.type === "youtube" ? (
+                            <span className="text-white">▶️</span>
                           ) : null}
                         </button>
                       ))}

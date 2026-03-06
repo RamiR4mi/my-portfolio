@@ -32,6 +32,9 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
+import ps from './assets/tech_logo/ps.png';
+import capcut from './assets/tech_logo/capcut.png';
+import pro from './assets/tech_logo/premierepro.png';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -60,14 +63,13 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
 import orealLogo from './assets/work_logo/loreal-logo.png';
 import googleLogo from './assets/google/google.png';
 import hultLogo from './assets/hult_prize/logo.png';
-
-// Designs Section
+import dsaMain from './assets/dsa/dsa_main.png';
+import dsa1 from './assets/dsa/dsa1.png';
+import dsa2 from './assets/dsa/dsa2.png';
+import dsa3 from './assets/dsa/dsa3.png';
+import dsa4 from './assets/dsa/dsa4.png';
+import dsa5 from './assets/dsa/dsa5.png';
 import castleLogo from './assets/designs/castleLogo.png';
-import d1 from './assets/designs/auistudentservices/SLIDE.png';
-import d2 from './assets/designs/auistudentservices/client.png';
-import d3 from './assets/designs/auistudentservices/service.png';
-import d4 from './assets/designs/auistudentservices/TRUST US.png';
-
 import cvid1 from './assets/designs/cvid1.mp4';
 import spic1 from './assets/designs/spic1.png';
 import spic2 from './assets/designs/spic2.png';
@@ -101,6 +103,7 @@ import hult4 from './assets/hult_prize/hult4.png';
 import hult5 from './assets/hult_prize/hult5.png';
 import hult6 from './assets/hult_prize/hult6.jpeg';
 import hult7 from './assets/hult_prize/hult7.jpeg';
+
 
 
 export const SkillsInfo = [
@@ -154,7 +157,7 @@ export const SkillsInfo = [
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Photoshop', logo: figmaLogo },
+      { name: 'Photoshop', logo: ps },
       { name: 'Adobe After Effects', logo: figmaLogo },
       { name: 'Capcut', logo: figmaLogo },
       { name: 'Figma', logo: figmaLogo },
@@ -204,26 +207,6 @@ export const SkillsInfo = [
       skills: [
         "Leadership", "Community Management", "Community Building", "Event Coordination (Hackathons & Workshops)", "Technical Education & Mentorship", "Content Creation (Courses & Resources)",
         "Collaboration & Networking", "Entrepreneurship Support",
-      ],
-    },
-    {
-      id: 2,
-      img: spotLogo,
-      role: "CO-Founder / Software Engineer",
-      company: "SportSpot",
-      date: "2025 - Present",
-      desc: "I CO-Founded SportSpot, which is a mobile app that allows people to easily book private sports fields in their city, anytime and anywhere."+
-      "As I also took part in frontend and backend development using technologies.",
-      skills: [
-        "ReactNative",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "Supabase",
-        "HTML",
-        "CSS",
-        "SQL",
-        "Docker",
       ],
     },
     {
@@ -304,6 +287,36 @@ export const SkillsInfo = [
          "User-Centered Design", "UI/UX Design", "Photoshop", "Figma", "After Effects"],
       webapp: "",
     },
+    {
+  id: 3,
+  title: "DSA (Division of Student Affairs)",
+  description:
+    "As Social Media Manager for the Division of Student Affairs at AUI, I led the digital coverage and promotion of major campus events, including the 'Change My Mind' debate series. My responsibilities included designing engaging event graphics, live social media updates, and post-event highlights. I collaborated with student leaders and university officials to amplify student engagement and showcase the vibrant campus life. The featured event brought together the debate team and university president for a dynamic discussion, fostering critical thinking and community spirit.",
+  image: dsaMain,
+  tags: ["Social Media Management", "Event Promotion", "Graphic Design", "Student Engagement", "AUI", "Debate", "Leadership", "Content Creation"],
+  media: [
+    { type: "image", src: dsa1 },
+    { type: "image", src: dsa2 },
+    { type: "image", src: dsa3 },
+    { type: "image", src: dsa4 },
+    { type: "image", src: dsa5 }
+  ],
+  webapp: "", // Add link to DSA social media or event page if available
+},
+{
+  id: 4,
+  title: "DSA (Division of Student Affairs)",
+  description:
+    "As Social Media Manager for the Division of Student Affairs at AUI, I led the digital coverage and promotion of major campus events, including the 'Change My Mind' debate series. My responsibilities included designing engaging event graphics, live social media updates, and post-event highlights. I collaborated with student leaders and university officials to amplify student engagement and showcase the vibrant campus life. The featured event brought together the debate team and university president for a dynamic discussion, fostering critical thinking and community spirit.",
+  image: dsaMain,
+  tags: ["Social Media Management", "Event Promotion", "Graphic Design", "Student Engagement", "AUI", "Debate", "Leadership", "Content Creation"],
+  media: [
+    { type: "image", src: dsa1 },
+    { type: "image", src: dsa2 },
+    { type: "image", src: dsa3 }
+  ],
+  webapp: "",
+},
   ];  
 
   export const designs = [
@@ -344,10 +357,10 @@ export const SkillsInfo = [
       id: 2,
       title: "Aui Student Services",
        media: [
-      { type: "image", src: d1 },
-      { type: "image", src: d2 }, // poster optional
-      { type: "image", src: d3 },
-      { type: "image", src: d4 },
+      { type: "image", src: auipic1 },
+      { type: "image", src: auipic2 }, // poster optional
+      { type: "image", src: auipic3 },
+      { type: "image", src: auipic4 },
     ],
       webapp: "",
     },
@@ -419,4 +432,4 @@ export const SkillsInfo = [
     },
     
 
-  ];  
+  ];
