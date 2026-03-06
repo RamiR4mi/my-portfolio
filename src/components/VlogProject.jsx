@@ -19,7 +19,7 @@ const VlogProject = ({ title, description, youtubeSrc, thumbnail }) => (
       </div>
     </div>
     {thumbnail && (
-      <img src={thumbnail} alt="Vlog thumbnail" className="mt-4 rounded-lg w-64 shadow-md" />
+      <img src={thumbnail} alt="Vlog thumbnail" className="mt-4 rounded-lg w-96 shadow-md" />
     )}
   </div>
 );
