@@ -104,6 +104,7 @@ import hult5 from './assets/hult_prize/hult5.png';
 import hult6 from './assets/hult_prize/hult6.jpeg';
 import hult7 from './assets/hult_prize/hult7.jpeg';
 import hult8 from './assets/hult_prize/hult8.png';
+import foot1 from './assets/designs/football1.png';
 
 
 
@@ -118,8 +119,6 @@ export const SkillsInfo = [
       { name: 'React JS', logo: reactjsLogo },
       //{ name: 'Angular', logo: angularLogo },
      // { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
       //{ name: 'GSAP', logo: gsapLogo },
       //{ name: 'Material UI', logo: materialuiLogo },
       //{ name: 'Bootstrap', logo: bootstrapLogo },
@@ -132,9 +131,7 @@ export const SkillsInfo = [
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
       //{ name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
   {
@@ -143,9 +140,8 @@ export const SkillsInfo = [
       { name: 'C', logo: cLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'TypeScript', logo: typescriptLogo },
-      { name: 'Lua', logo: typescriptLogo },
+   
+
     ],
   },
   {
@@ -249,6 +245,17 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
+        {
+          id: 5,
+          title: "Mohamed Ouahbi",
+          description: "The new era of Mohamed Ouahbi, the new Head of The Moroccan National Team has began",
+          image: foot1,
+          tags: ["Travel", "Adventure", "Vlog", "Kilimanjaro", "YouTube"],
+          media: [
+            { type: "image", src: foot1},
+          ],
+          webapp: "foot1",
+        },
         {
           id: 5,
           title: "Kilimanjaro Vlog",
