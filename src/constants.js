@@ -103,6 +103,7 @@ import hult4 from './assets/hult_prize/hult4.png';
 import hult5 from './assets/hult_prize/hult5.png';
 import hult6 from './assets/hult_prize/hult6.jpeg';
 import hult7 from './assets/hult_prize/hult7.jpeg';
+import hult8 from './assets/hult_prize/hult8.png';
 
 
 
@@ -255,9 +256,111 @@ export const SkillsInfo = [
           image: "https://img.youtube.com/vi/P6Do7kKi3WM/hqdefault.jpg",
           tags: ["Travel", "Adventure", "Vlog", "Kilimanjaro", "YouTube"],
           media: [
+            { type: "image", src: "https://img.youtube.com/vi/P6Do7kKi3WM/hqdefault.jpg" },
             { type: "youtube", src: "https://www.youtube.com/watch?v=P6Do7kKi3WM" }
           ],
           webapp: "https://www.youtube.com/watch?v=P6Do7kKi3WM",
+        },
+        // ...existing code...
+        // Designs merged as projects
+        {
+          id: 100,
+          title: "Al Akhawayn University",
+          description: "Designs for Al Akhawayn University branding and services.",
+          image: auiLogo,
+          tags: ["Design", "University"],
+          media: [
+            { type: "image", src: auiLogo},
+            { type: "image", src: auipic1},
+            { type: "image", src: auipic2},
+            { type: "image", src: auipic3},
+            { type: "image", src: auipic4},
+            { type: "image", src: auipic5},
+          ],
+          webapp: "",
+        },
+        {
+          id: 101,
+          title: "YAZ Agricultural Solutions",
+          description: "Branding and design for YAZ Agricultural Solutions.",
+          image: yaz1,
+          tags: ["Design", "Agriculture"],
+          media: [
+            { type: "image", src: yaz6 },
+            { type: "image", src: yaz1 },
+            { type: "image", src: yaz2 },
+            { type: "image", src: yaz3 },
+            { type: "image", src: yaz4 },
+            { type: "image", src: yaz5 },
+            { type: "image", src: yaz6 },
+            { type: "image", src: yaz7 },
+            { type: "image", src: yaz8 },
+            { type: "image", src: yaz9 },
+            { type: "image", src: yaz10 },
+            { type: "image", src: yaz11 },
+            { type: "image", src: yaz12 },
+          ],
+          webapp: "",
+        },
+        {
+          id: 102,
+          title: "Aui Student Services",
+          description: "Student services design for AUI.",
+          image: auipic1,
+          tags: ["Design", "Student Services"],
+          media: [
+            { type: "image", src: auipic1 },
+            { type: "image", src: auipic2 },
+            { type: "image", src: auipic3 },
+            { type: "image", src: auipic4 },
+          ],
+          webapp: "",
+        },
+        {
+          id: 103,
+          title: "Storm Group",
+          description: "Storm Group branding design.",
+          image: stpic1,
+          tags: ["Design", "Branding"],
+          media: [
+            { type: "image", src: stpic1},
+          ],
+          webapp: "",
+        },
+        {
+          id: 104,
+          title: "Alhiane Services",
+          description: "Alhiane Services design work.",
+          image: alhiane1,
+          tags: ["Design", "Services"],
+          media: [
+            { type: "image", src: alhiane1},
+          ],
+          webapp: "",
+        },
+        {
+          id: 105,
+          title: "The Castle",
+          description: "Castle video design project.",
+          image: castleLogo,
+          tags: ["Design", "Video"],
+          media: [
+            { type: "video", src: cvid1, poster: castleLogo },
+          ],
+          webapp: "",
+        },
+        {
+          id: 106,
+          title: "Santacruz",
+          description: "Santacruz poster designs.",
+          image: spic1,
+          tags: ["Design", "Poster"],
+          media: [
+            { type: "image", src: spic1},
+            { type: "image", src: spic2},
+            { type: "image", src: spic3},
+          ],
+          webapp: "",
         },
     {
       id: 0,
@@ -285,6 +388,8 @@ export const SkillsInfo = [
       { type: "image", src: hult4},
       { type: "image", src: hult5},
       { type: "image", src: hult6},
+     { type: "image", src: hult7},
+     { type: "image", src: hult8},
     ],
       webapp: "",
     },
