@@ -254,7 +254,7 @@ export const SkillsInfo = [
           media: [
             { type: "image", src: foot1},
           ],
-          webapp: "foot1",
+          webapp: "", 
         },
         {
           id: 5,
