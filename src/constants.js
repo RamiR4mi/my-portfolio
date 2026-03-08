@@ -268,6 +268,17 @@ export const SkillsInfo = [
           ],
           webapp: "https://www.youtube.com/watch?v=P6Do7kKi3WM",
         },
+          {
+      id: 0,
+      title: "I/O Connect Berlin 2024 Podcast",
+      description:
+        " Edited a podcast episode recorded at the I/O Connect Berlin 2024 studio, featuring a Google Developer Advocate Abdel SGHIOUAR. My work included clean editing, pacing optimization, audio balancing, color correction and visual consistency, ensuring a polished and engaging final result. The edit was focused on maintaining a professional, broadcast-ready look and feel, aligned with Google’s visual identity and content quality standards, while preserving the natural flow and clarity of the discussion.",
+      image: googleLogo,
+    tags: ["Podcast Editing", "Video Editing", "Audio Editing", "Color Correction", "Color Grading", "Content Production",
+       "Post-Production", "Storytelling", "Broadcast Quality", "Studio Production", "Tech Events",
+       "Google", "I/O Connect Berlin 2024", "Developer Advocacy", "After Effects", "Premiere Pro"],
+      webapp: "https://youtu.be/okd8teUi5Q8?si=RqjCuPukMZNM4nKY",
+    },
         // ...existing code...
         // Designs merged as projects
         {
@@ -369,17 +380,6 @@ export const SkillsInfo = [
           ],
           webapp: "",
         },
-    {
-      id: 0,
-      title: "I/O Connect Berlin 2024 Podcast",
-      description:
-        " Edited a podcast episode recorded at the I/O Connect Berlin 2024 studio, featuring a Google Developer Advocate Abdel SGHIOUAR. My work included clean editing, pacing optimization, audio balancing, color correction and visual consistency, ensuring a polished and engaging final result. The edit was focused on maintaining a professional, broadcast-ready look and feel, aligned with Google’s visual identity and content quality standards, while preserving the natural flow and clarity of the discussion.",
-      image: googleLogo,
-    tags: ["Podcast Editing", "Video Editing", "Audio Editing", "Color Correction", "Color Grading", "Content Production",
-       "Post-Production", "Storytelling", "Broadcast Quality", "Studio Production", "Tech Events",
-       "Google", "I/O Connect Berlin 2024", "Developer Advocacy", "After Effects", "Premiere Pro"],
-      webapp: "https://youtu.be/okd8teUi5Q8?si=RqjCuPukMZNM4nKY",
-    },
     {
       id: 1,
       title: "Hult Prize",
