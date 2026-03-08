@@ -211,7 +211,7 @@ export const SkillsInfo = [
       img: cortexLogo,
       role: "Software developer & Marketing Lead",
       company: "Cortex Agency",
-      date: "2025 January - Present",
+      date: "2025 January - 2025 August",
       desc: "Specialized in creating comprehensive digital solutions with focus on user experience and visual design for various industries.Developed responsive web applications for various industries Created brand identities and marketing materials Produced promotional videos and motion graphicsCollaborated with international teams on complex projects",
       skills: ["JavaScript", "Python", "MongoDB", "React", "Photoshop", "Adobe After Effects"],
     },
